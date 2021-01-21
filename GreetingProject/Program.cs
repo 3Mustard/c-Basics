@@ -6,7 +6,7 @@ namespace GreetingProject
     {
         static void Main(string[] args)
         {
-            Greeting(GetData());
+            Greeting();
         }
 
         private static string[] GetData()
@@ -23,14 +23,15 @@ namespace GreetingProject
             return (parsedAge + years).ToString();
         }
 
-        private static void Greeting(String[] data)
+        private static void Greeting()
         {
+            string[] data = GetData();
             string name = data[0];
             string age = data[1];
             string ageInTen = GetAgeInXYears(data[1], 10);
 
             Console.WriteLine($"Hello {name}, you are {age} years old!");
-            Console.WriteLine($"In ten years you will be {ageInTen}");
+            Console.WriteLine($"In ten years you will be {ageInTen}.");
         }
     }
 }

@@ -10,3 +10,4 @@ C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp
 C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.dll
 C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.pdb
 C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.genruntimeconfig.cache
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.csprojAssemblyReference.cache
