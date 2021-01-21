@@ -1,0 +1,12 @@
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\bin\Debug\netcoreapp3.1\GreetingProject.exe
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\bin\Debug\netcoreapp3.1\GreetingProject.deps.json
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\bin\Debug\netcoreapp3.1\GreetingProject.runtimeconfig.json
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\bin\Debug\netcoreapp3.1\GreetingProject.runtimeconfig.dev.json
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\bin\Debug\netcoreapp3.1\GreetingProject.dll
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\bin\Debug\netcoreapp3.1\GreetingProject.pdb
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.AssemblyInfo.cs
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.dll
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.pdb
+C:\Users\Matt\source\repos\GreetingSolution\GreetingProject\obj\Debug\netcoreapp3.1\GreetingProject.genruntimeconfig.cache
