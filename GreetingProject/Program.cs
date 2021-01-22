@@ -14,7 +14,7 @@ namespace GreetingProject
             string[] data = GetData();
             string name = data[0];
             string age = data[1];
-            string futureAge = GetAgeInXYears(data[1], 10);
+            string futureAge = GetAgeInXYears(age, 10);
 
             Greeting(name, age, futureAge);
         }
