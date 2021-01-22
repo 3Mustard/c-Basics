@@ -36,7 +36,7 @@ namespace GreetingProject
                 Console.WriteLine("Please use the following format, name then age seperated by only one space: 'name' 'age' ");
                 input = GetData();
             }
-            // check that age in a number
+            // check that age is a string and can be turned into an integer
             while (!CheckAge(input[1]))
             {
                 Console.WriteLine("Age must be a number. Please use the following format, name then age seperated by only one space: 'name' 'age' ");
