@@ -9,27 +9,6 @@ namespace GreetingProject
             Greet();
         }
 
-        private static string[] GetData()
-        {
-            Console.WriteLine("What is your name and age? ");
-            string[] input = Console.ReadLine().Split(' ');
-
-            while (input.Length != 2)
-            {
-                Console.WriteLine("Please use the following format, name then age seperated by only one space: 'name' 'age' ");
-                input = GetData();
-            }
-            
-            return input;
-        }
-
-        private static string GetAgeInXYears(string age, int years)
-        {
-            int parsedAge = Int32.Parse(age);
-            
-            return (parsedAge + years).ToString();
-        }
-
         private static void Greet()
         {
             string[] data = GetData();
@@ -44,6 +23,47 @@ namespace GreetingProject
         {
             Console.WriteLine($"Hello {name}, you are {age} years old!");
             Console.WriteLine($"In ten years you will be {futureAge}.");
+        }
+
+        private static string[] GetData()
+        {
+            Console.WriteLine("What is your name and age? ");
+            string[] input = Console.ReadLine().Split(' ');
+
+            // Check that two values are entered
+            while (input.Length != 2)
+            {
+                Console.WriteLine("Please use the following format, name then age seperated by only one space: 'name' 'age' ");
+                input = GetData();
+            }
+            // check that age in a number
+            while (!CheckAge(input[1]))
+            {
+                Console.WriteLine("Age must be a number. Please use the following format, name then age seperated by only one space: 'name' 'age' ");
+                input = GetData();
+            }
+
+            return input;
+        }
+
+        private static bool CheckAge(string age)
+        {
+            try
+            {
+                Int32.Parse(age);
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+
+        private static string GetAgeInXYears(string age, int years)
+        {
+            int parsedAge = Int32.Parse(age);
+
+            return (parsedAge + years).ToString();
         }
     }
 }
