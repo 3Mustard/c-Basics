@@ -14,38 +14,19 @@ namespace GreetingProject
             Console.WriteLine("What is your name and age? ");
             string[] input = Console.ReadLine().Split(' ');
 
-            // make sure user enters two values seperated by one space
             while (input.Length != 2)
             {
                 Console.WriteLine("Please use the following format, name then age seperated by only one space: 'name' 'age' ");
-                GetData();
+                input = GetData();
             }
-            // check if age is an integer
-            if (!CheckAge(input[1]))
-            {
-                Console.WriteLine("Age must be a number");
-                Console.WriteLine("Please use the following format, name then age seperated by only one space: 'name' 'age' ");
-                GetData();
-            }
+            
             return input;
-        }
-
-        private static bool CheckAge(string age)
-        {
-            if (Int32.Parse(age).GetType() == typeof(int))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
         }
 
         private static string GetAgeInXYears(string age, int years)
         {
             int parsedAge = Int32.Parse(age);
-
+            
             return (parsedAge + years).ToString();
         }
 
