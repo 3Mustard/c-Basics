@@ -21,7 +21,7 @@ namespace GreetingProject
                 GetData();
             }
             // check if age is an integer
-            if (!CheckAge(input[1])) 
+            if (!CheckAge(input[1]))
             {
                 Console.WriteLine("Age must be a number");
                 Console.WriteLine("Please use the following format, name then age seperated by only one space: 'name' 'age' ");
@@ -45,7 +45,7 @@ namespace GreetingProject
         private static string GetAgeInXYears(string age, int years)
         {
             int parsedAge = Int32.Parse(age);
-            
+
             return (parsedAge + years).ToString();
         }
 
