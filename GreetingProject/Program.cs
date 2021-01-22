@@ -6,11 +6,6 @@ namespace GreetingProject
     {
         static void Main(string[] args)
         {
-            Greet();
-        }
-
-        private static void Greet()
-        {
             string[] data = GetData();
             string name = data[0];
             string age = data[1];
